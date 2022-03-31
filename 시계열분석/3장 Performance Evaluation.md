@@ -34,7 +34,6 @@
 - 예측 정확도: 모형 적합에 사용되지 않는 데이터에 대한 예측력 => validation period에 대해 측정  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8251;Validation period에 결측치가 있는 경우는 '반드시 제외'하고 측정  
 #### 자주 사용되는 예측 정확도의 측도
-``` math
 - t시점 개별 데이터에 대한 예측오차:$e_{t} = y_{t}-F_{t}$
 - training period: $t=1,2,...,n$
 - validation period: $t=n+1,n+2,...,n+v$
@@ -46,7 +45,7 @@
   - 예측오차의 방향성($e_t>0,e_t<0$)의 영향이 비대칭적임
 $RMSE = \sqrt{\sum_{t=n+1}^{n+v}({e_t})^2}=\sqrt{MSE}$
 $RPMSE = \sqrt{\sum_{t=n+1}^{n+v}(\frac{e_t}{y_t})^2\times100}$ :MAPE와 같은 취지
-```
+
 :notebook_with_decorative_cover: 위 측도들을 training period에 사용하면 적합도, valid에 사용하면 예측정확도.  
 
 #### 0값 계산
