@@ -24,8 +24,8 @@
 - 정리: 1. 분할 2. 학습 3. 평가 4.예측 의 순서로 분석
 
 ## 3.2 Naive Forecasts
-- The k-step ahead naive forecast at time t: $F_{t+k} = y_t$
-- The k-step ahead naive forecast at time t for seasonal series with M seasons: $F_{t+k} = y_{t-M+k}$
+- The k-step ahead naive forecast at time t: $`F_{t+k} = y_t`$
+- The k-step ahead naive forecast at time t for seasonal series with M seasons: $`F_{t+k} = y_{t-M+k}`$
 - simplest model이자 baseline model
 
 ## 3.3 Measuring Predictive Accuracy
