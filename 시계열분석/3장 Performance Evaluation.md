@@ -30,7 +30,7 @@
 
 ## 3.3 Measuring Predictive Accuracy
 적합도(Goodness of Fit) vs. 예측정확도(Predictive Accuracy or Forecasting Accuracy)  
-- 적합도: 인과관계의 강도. 예) $R^2$ => training period에 대해 측정  
+- 적합도: 인과관계의 강도. 예) $`R^2`$ => training period에 대해 측정  
 - 예측 정확도: 모형 적합에 사용되지 않는 데이터에 대한 예측력 => validation period에 대해 측정  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8251;Validation period에 결측치가 있는 경우는 '반드시 제외'하고 측정  
 #### 자주 사용되는 예측 정확도의 측도
@@ -53,7 +53,7 @@ $`RPMSE = \sqrt{\sum_{t=n+1}^{n+v}(\frac{e_t}{y_t})^2\times100}`$ :MAPE와 같�
 - 대안  
 
 ```Math
-$$MASE(Mean Abolute Scaled Error)=\frac{Validation MAE}{training MAE of naive forecasts}=\frac{\frac{1}{v}\sum_{t=n+1}^{n+v}|e_t|}{\frac{1}{n-1}\sum_{t=2}^{n}|y_{t-1}-y_t|}$$
+MASE(Mean Abolute Scaled Error)=\frac{Validation MAE}{training MAE of naive forecasts}=\frac{\frac{1}{v}\sum_{t=n+1}^{n+v}|e_t|}{\frac{1}{n-1}\sum_{t=2}^{n}|y_{t-1}-y_t|}
 ```
   
 :notebook_with_decorative_cover: MASE의 의미  
