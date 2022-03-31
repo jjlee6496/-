@@ -76,6 +76,7 @@ MASE(Mean Abolute Scaled Error)=\frac{Validation MAE}{training MAE of naive fore
 
 - 방법1: 예측오차$`e_{t} = y_{t}-F_{t}`$ 가 정규분포를 따를 때. 예측치$`F_t`$에 $`SE[e_t]`$의 상수배를 가감하여 예측구간을 구함. But, 예측오차 $`e_t`$가 항상 정규분포를 따르진 않는다.
 - 방법2: training period에서 계산된 $`	\{e_t|t\in train \}`$ 의 히스토그램을 $`e_{t+1}`$의 확률분포로 간주, 이 분포의 percentile을 $`F_{t+1}`$에 가감하여 예측구간을 구함.
+
 :notebook_with_decorative_cover: 1.$`y_{t}`$와$`F_{t}`$ 2.$`\hat{e_{t}}(=y_{t}-F_{t})`$의 시도표 3.$`\{e_t|t\in train \}`$의 히스토그램 4.$`y_{t}`$와$`F_{t}`$의 prediction interval 시도표  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8251;4번에서 먼 미래의 예측범위와 가까운 미래의 예측범위가 같은게 맞을까?  
 
