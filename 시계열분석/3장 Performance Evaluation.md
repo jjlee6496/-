@@ -24,17 +24,17 @@
 - 정리: 1. 분할 2. 학습 3. 평가 4.예측 의 순서로 분석
 
 ## 3.2 Naive Forecasts
-- The k-step ahead naive forecast at time t: <img src="https://render.githubusercontent.com/render/math?math=F_{t+k} = y_t>
-- The k-step ahead naive forecast at time t for seasonal series with M seasons: <img src="https://render.githubusercontent.com/render/math?math=F_{t+k} = y_{t-M+k}>
+- The k-step ahead naive forecast at time t: $F_{t+k} = y_t$
+- The k-step ahead naive forecast at time t for seasonal series with M seasons: $F_{t+k} = y_{t-M+k}$
 - simplest model이자 baseline model
 
 ## 3.3 Measuring Predictive Accuracy
 적합도(Goodness of Fit) vs. 예측정확도(Predictive Accuracy or Forecasting Accuracy)  
-- 적합도: 인과관계의 강도. 예) <img src="https://render.githubusercontent.com/render/math?math=R^2> => training period에 대해 측정  
+- 적합도: 인과관계의 강도. 예) $R^2$ => training period에 대해 측정  
 - 예측 정확도: 모형 적합에 사용되지 않는 데이터에 대한 예측력 => validation period에 대해 측정  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8251;Validation period에 결측치가 있는 경우는 '반드시 제외'하고 측정  
 #### 자주 사용되는 예측 정확도의 측도
-- t시점 개별 데이터에 대한 예측오차:<img src="https://render.githubusercontent.com/render/math?math=e_{t} = y_{t}-F_{t}>
+- t시점 개별 데이터에 대한 예측오차:$e_{t} = y_{t}-F_{t}$
 - training period: $t=1,2,...,n$
 - validation period: $t=n+1,n+2,...,n+v$
 
@@ -57,3 +57,6 @@ $RPMSE = \sqrt{\sum_{t=n+1}^{n+v}(\frac{e_t}{y_t})^2\times100}$ :MAPE와 같은 
 
 #### Forecast Accuracy vs. Profitability
 - 예)투자전략을 개발하기 위한 주가 예측 시계열 모델링 => 작은 예측오차가 투자전략의 성공 보장 X. 투자성과 기준으로 모형을 선택하는 것이 타당하다.
+
+## 3.4 Evaluating Forecast Uncertainty
+예측 
