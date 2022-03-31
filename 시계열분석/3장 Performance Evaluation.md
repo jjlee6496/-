@@ -76,7 +76,7 @@ $RPMSE = \sqrt{\sum_{t=n+1}^{n+v}(\frac{e_t}{y_t})^2\times100}$ :MAPE와 같은 
 
 #### 예측원뿔(Prediction Cone)
 - 상식: 가까운 미래에 대한 예측의 불확실성 \leq 먼 미래에 대한 예측의 불확실성
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp∴ 가까운 미래에 대한 예측구간의 길이 \leq 먼미래에 대한 예측구간의 길이 => "예측원뿔"  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ∴ 가까운 미래에 대한 예측구간의 길이 \leq 먼미래에 대한 예측구간의 길이 => "예측원뿔"  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;모델링을 통해 이러한 결과가 나오도록 할 수 있음. 대부분의 예측 모형은 이 상식을 구현함.  
 ![예측원뿔.PNG](https://github.com/jjlee6496/one-by-one/blob/main/%EC%8B%9C%EA%B3%84%EC%97%B4%EB%B6%84%EC%84%9D/images/PredictionCone.PNG?raw=true)
 ## 3.5 Roll-Forward Validation
