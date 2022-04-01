@@ -88,6 +88,6 @@ MASE(Mean Abolute Scaled Error)=\frac{Validation MAE}{training MAE of naive fore
 ## 3.5 Roll-Forward Validation
 - 시계열 자료는 횡단면 자료와 달리 training-validation partition을 random하게 뽑지 못하고 fixed할수 밖에 없음.
 - 좀더 많은 validation 수행 위해 roll-forward 방법 사용.
-- validation period의 시작점을 한 기간씩 앞으로 땡기면서 여러개의 partition 생성.
+- validation period의 시작점을 한 기간씩 뒤로 보내면서 여러개의 partition 생성.
 ![rollfoward.PNG](https://github.com/jjlee6496/one-by-one/blob/main/%EC%8B%9C%EA%B3%84%EC%97%B4%EB%B6%84%EC%84%9D/images/rollfoward.PNG?raw=true)
 - 일반적으로 roll-foward 방식이 fixed partioning 비해 성과가 우수하다.
