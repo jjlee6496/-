@@ -4,4 +4,4 @@
 
 
 # 추가 공부
-추가로 공부하기위해 ![Forecasting:principles and practice data](https://otexts.com/fppkr/)를 참고했습니다
+추가로 공부하기위해 [Forecasting:principles and practice data](https://otexts.com/fppkr/)를 참고했습니다
