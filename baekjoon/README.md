@@ -1,3 +1,6 @@
+### SUDDA 코딩테스트 스터디
+https://www.acmicpc.net/group/workbook/14069  
+
 # 백준 하루에 하나씩 풀어보기
 3/16부터 시작
 | 날짜        | 문제번호                   | 평가                             |
