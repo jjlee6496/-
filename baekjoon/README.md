@@ -12,3 +12,12 @@
 | 4/10      |2941, 9012                |스택에 대한 이해가 생기기 시작 |
 | 4/11      |10828                |스택 문제 재밌어서 많이 풀어볼 예정 |
 | 4/16      |1978, 6588               |골드바흐의 추측 다시한번 해보기 |
+
+<br>
+<div align="left">
+<h1 align="left">👀BOJ👀</h1>
+  
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=ujin1515)](https://solved.ac/ujin1515)
+  
+ <img src="http://mazandi.herokuapp.com/api?handle=ujin1515&theme=cold"/>
