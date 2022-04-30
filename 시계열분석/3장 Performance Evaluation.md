@@ -43,7 +43,7 @@
 - $`MAPE = \frac{1}{v}\sum_{t=n+1}^{n+v}|\frac{e_t}{y_t}|\times100`$
   - 측정단위가 서로 다른 시계열의 예측성과 비교시 유용(상대오차, scale-free)
   - 예측오차의 방향성($e_t>0,e_t<0$)의 영향이 비대칭적임
-$`RMSE = \sqrt{\sum_{t=n+1}^{n+v}({e_t})^2}=\sqrt{MSE}`$
+$`RMSE = \sqrt{\sum_{t=n+1}^{n+v}({e_t})^2}=\sqrt{MSE}`$  
 $`RPMSE = \sqrt{\sum_{t=n+1}^{n+v}(\frac{e_t}{y_t})^2\times100}`$ :MAPE와 같은 취지  
 
 :notebook_with_decorative_cover: 위 측도들을 training period에 사용하면 적합도, valid에 사용하면 예측정확도.  
